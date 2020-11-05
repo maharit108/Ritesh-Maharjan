@@ -4,6 +4,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #D1E8E2;
+  background-image: url('./landing.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 0.5px solid rgba(50, 50, 50, 0.4);
+  padding: 20px;
 }
 
 .row {
@@ -15,12 +22,31 @@
 }
 
 .me {
-  margin: 20px;
+  margin: 10px;
   width: 400px;
   height: 200px;
-  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgba(192,191,189,0.8);
+  box-shadow: 1px 3px 3px 3px #000000;
+}
+
+.titleme {
+  text-align: center;
+  font-family: 'Architects Daughter', cursive
+}
+
+p {
+  text-align: justify;
 }
 
 .aboutTitle {
-  margin-top: 20px;
+  margin: 8vh;
+  font-family: 'Architects Daughter', cursive
+}
+
+@media only screen and (max-width: 400px) {
+  .me {
+    height: auto;
+  }
 }

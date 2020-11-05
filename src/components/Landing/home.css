@@ -1,27 +1,42 @@
 .home {
   height: 93vh;
-  background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background-color: #e1e6eb;
+  background-image: radial-gradient(#e1e6eb, #116466);
+  border-bottom: 0.5px solid rgba(50, 50, 50, 0.4);
 }
 
 .pic {
   border-radius: 50%;
-  border: 3px solid white;
   width: 200px;
   height: 200px;
-  margin: 10vw;
+  margin: 5vw;
+  overflow: hidden;
+  border: 3px solid gray;
+}
+
+img {
+  object-fit: cover;
 }
 
 .brief {
   max-width: 500px;
   text-align: center;
-  color: lime;
 }
 
-@media only screen and (max-width: 650px) {
+.name {
+  font-size: 40px;
+}
+
+.intro {
+  color: #606060;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 875px) {
   .home {
     display: flex;
     flex-direction: column;

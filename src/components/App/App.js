@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
 
 import './App.css'
 
@@ -13,19 +13,20 @@ import Project from '../Projects/Project.js'
 import Contact from '../Contacts/Contact.js'
 
 function App() {
+  const [expanded, setExpanded] = useState(false)
   return (
     <Fragment>
       <Home />
-      <Navbar bg="dark" variant="dark" expand="md" sticky="top">
+      <Navbar bg="dark" variant="dark" expand="md" sticky="top" expanded={expanded}>
         <Navbar.Brand href='#'> RITESH MAHARJAN </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-          <Nav.Link href="/#">HOME</Nav.Link>
-          <Nav.Link href="#about">ABOUT</Nav.Link>
-          <Nav.Link href="#skills">SKILLS</Nav.Link>
-          <Nav.Link href="#projects">PORTFOLIO</Nav.Link>
-          <Nav.Link href="#contacts">CONTACT</Nav.Link>
+          <Nav.Link onClick={() => setExpanded(false)} href="/#">HOME</Nav.Link>
+          <Nav.Link onClick={() => setExpanded(false)} href="#about">ABOUT</Nav.Link>
+          <Nav.Link onClick={() => setExpanded(false)} href="#skills">SKILLS</Nav.Link>
+          <Nav.Link onClick={() => setExpanded(false)} href="#projects">PORTFOLIO</Nav.Link>
+          <Nav.Link onClick={() => setExpanded(false)} href="#contacts">CONTACT</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

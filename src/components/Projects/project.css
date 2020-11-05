@@ -4,6 +4,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgba(175,210,117,0.8);
+  background-image: linear-gradient(rgba(175,210,117,0.8), #7e685a);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 0.5px solid rgba(50, 50, 50, 0.4);
+  padding: 20px;
 }
 
 .row {
@@ -15,8 +22,56 @@
 }
 
 .proj {
-  margin: 10px;
-  width: 400px;
-  height: 300px;
-  border: 1px solid black;
+  margin: 20px 20px 20px 20px;
+  max-width: 400px;
+  width: 43vw;
+}
+
+.projectTitle {
+  margin: 8vh auto;
+  font-family: 'Architects Daughter', cursive
+}
+
+.toolUse {
+  padding: 10px;
+  margin: 15px 3px 0px 3px;
+  border-radius: 15px;
+  background-color: rgba(175,210,117,0.8);
+}
+
+.card {
+  box-shadow: 2px 4px 4px 4px rgba(0,0,0,.6);
+  padding: 12px;
+  border-radius: 10px;
+  height: 575px;
+  min-width: 400px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.icon {
+  width: 50px;
+  margin: auto 20px;
+}
+
+@media only screen and (max-width: 850px) {
+  .card {
+    min-width: auto;
+    height: auto;
+  }
+  .proj {
+    width: 90vw;
+  }
 }

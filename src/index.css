@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 .body {
   margin: 0px;
   padding: 0px;
   width: 100vw;
+  background-color: #EEE2DC;
 }
