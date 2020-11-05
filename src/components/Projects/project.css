@@ -1,4 +1,4 @@
-.about {
+.project {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,13 +14,9 @@
   width: 100%;
 }
 
-.me {
-  margin: 20px;
+.proj {
+  margin: 10px;
   width: 400px;
-  height: 200px;
+  height: 300px;
   border: 1px solid black;
-}
-
-.aboutTitle {
-  margin-top: 20px;
 }
