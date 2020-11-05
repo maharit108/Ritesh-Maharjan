@@ -1,0 +1,40 @@
+.home {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic {
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 200px;
+  height: 200px;
+  margin: 10vw;
+}
+
+.brief {
+  max-width: 500px;
+  text-align: center;
+  color: lime;
+}
+
+@media only screen and (max-width: 650px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
