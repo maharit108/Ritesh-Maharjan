@@ -12,6 +12,8 @@ import Skills from '../Skills/Skills.js'
 import Project from '../Projects/Project.js'
 import Contact from '../Contacts/Contact.js'
 
+import resume from './Ritesh_Maharjan_resume.pdf'
+
 function App() {
   const [expanded, setExpanded] = useState(false)
   return (
@@ -26,7 +28,8 @@ function App() {
           <Nav.Link onClick={() => setExpanded(false)} href="#about">ABOUT</Nav.Link>
           <Nav.Link onClick={() => setExpanded(false)} href="#skills">SKILLS</Nav.Link>
           <Nav.Link onClick={() => setExpanded(false)} href="#projects">PORTFOLIO</Nav.Link>
-          <Nav.Link onClick={() => setExpanded(false)} href="#contacts">CONTACT</Nav.Link>
+          <Nav.Link onClick={() => setExpanded(false)} href="#contacts">CONTACTS</Nav.Link>
+          <Nav.Link onClick={() => setExpanded(false)} href={resume} target="_blank" rel="noopener noreferrer">RESUME</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

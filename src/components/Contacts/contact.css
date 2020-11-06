@@ -6,3 +6,53 @@
   align-items: center;
   background-color: #EEE2DC;
 }
+
+.contactTitle {
+  margin: 8vh;
+  font-family: 'Architects Daughter', cursive
+}
+
+.mymsg {
+  width: 70vw;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.formDiv {
+  padding: 40px;
+}
+
+Form {
+  width: 50vw;
+  max-width: 500px;
+  min-width: 400px;
+}
+
+textarea.form-control {
+  height: 120px;
+}
+
+.formSubmit {
+  width: 50vw;
+  max-width: 500px;
+  min-width: 400px;
+  background-color: #116466;
+}
+
+.meMail {
+  color: black;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 400px) {
+  Form {
+    width: 90vw;
+    min-width: auto;
+  }
+
+  .formSubmit {
+    width: 90vw;
+    min-width: auto;
+  }
+}

@@ -47,6 +47,10 @@
   min-width: 400px;
 }
 
+.card-title {
+  font-size: 24px; 
+}
+
 .card-body {
   display: flex;
   flex-direction: column;
