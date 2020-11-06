@@ -1,10 +1,17 @@
 .contacts {
-  min-height: 100vh;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #EEE2DC;
+}
+
+.contactMain {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #EEE2DC;
 }
 
 .contactTitle {
@@ -43,6 +50,135 @@ textarea.form-control {
 .meMail {
   color: black;
   text-decoration: underline;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #343b3f;
+  width: 100vw;
+  height: 80px;
+}
+
+.foot1 {
+  height: 80px;
+  color: gray;
+  font-size: 12px;
+  padding: 5px 25px;
+}
+
+.footTitle {
+  color: gray;
+  font-size: 14px;
+  padding: 5px 0 10px 0;
+}
+
+.footp {
+  line-height: 0;
+}
+
+.foot2 {
+  margin: 0;
+  padding: 0 30px 0 0;
+}
+
+.dwn {
+  width: 20px;
+  border-radius: 50%;
+}
+.dwn:hover {
+  background-color: firebrick;
+  transform: scale(1.3);
+}
+
+.footLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footTitle2 {
+  color: gray;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.gt {
+  width: 49px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: white;
+  margin: auto 20px;
+}
+.gt:hover {
+  transform: scale(1.2);
+}
+.ml:hover {
+  transform: scale(1.2);
+}
+.ln:hover {
+  transform: scale(1.2);
+}
+.ml {
+  width: 49px;
+  height: 49px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: auto 20px;
+}
+.ln {
+  width: 49px;
+  height: 49px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: white;
+  margin: auto 20px;
+}
+.footLogogt {
+  width: 45px;
+}
+.footLogoml {
+  width: 45px;
+}
+.footLogoln {
+  width: 45px;
+}
+
+.smlScn {
+  display: none;
+}
+
+.smp {
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    height: 130px;
+  }
+  .foot1 {
+    display: none;
+  }
+  .foot2 {
+    display: none;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .smlScn {
+    display: flex;
+    color: gray;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 5px 0;
+  }
 }
 
 @media only screen and (max-width: 400px) {

@@ -29,7 +29,7 @@ function App() {
           <Nav.Link onClick={() => setExpanded(false)} href="#skills">SKILLS</Nav.Link>
           <Nav.Link onClick={() => setExpanded(false)} href="#projects">PORTFOLIO</Nav.Link>
           <Nav.Link onClick={() => setExpanded(false)} href="#contacts">CONTACTS</Nav.Link>
-          <Nav.Link onClick={() => setExpanded(false)} href={resume} target="_blank" rel="noopener noreferrer">RESUME</Nav.Link>
+          <Nav.Link onClick={() => setExpanded(false)} href={resume} target="_blank">RESUME</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
