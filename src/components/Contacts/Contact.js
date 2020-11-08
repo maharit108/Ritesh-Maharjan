@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
+import { db } from './firebase'
 
 import dwn from './dwn.jpg'
 import mail from './mail.png'
@@ -19,16 +20,45 @@ const Contact = () => {
   const [title, setTitle] = useState('')
   const [message, setMessage] = useState('')
 
+  const handleSubmit = e => {
+    e.preventDefault()
+    if (!/^[a-zA-Z]+$/.test(senderName)) {
+      setsenderName('')
+      setEmail('')
+      setTitle('')
+      setMessage('')
+      return alert('Please check Name')
+    }
+    db.collection('feedback').add({
+      name: senderName,
+      email: email,
+      title: title,
+      message: message
+    })
+    .then(() => {
+      alert('Feedback Submitted')
+    })
+    .catch((error) => {
+      alert(error.message)
+    })
+    .finally(() => {
+      setsenderName('')
+      setEmail('')
+      setTitle('')
+      setMessage('')
+    })
+  }
+
 return (
     <div id='contacts' className='contacts'>
       <div className='contactMain'>
         <h2 className='contactTitle'> CONTACT ME </h2>
         <p className='mymsg'>You can send me an email at <a href="mailto:maha.rit108@gmail.com?subject=Hello!&body=Hi" className='meMail'>maha.rit108@gmail.com</a> or shoot me a message by filling the form below. </p>
       <div className='formDiv'>
-        <Form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdBOwTM6oJ9UGsVAYK1ikVkvSuuIx1Sj7eJr8XndKe8GF_kiA/formResponse" target="_blank">
+        <Form onSubmit=
+        {handleSubmit}>
             <Form.Group controlId="senderName">
               <Form.Control
-                name="entry.1675593914"
                 size="sm"
                 type="text"
                 value={senderName}
@@ -40,7 +70,6 @@ return (
 
             <Form.Group controlId="email">
               <Form.Control
-                name="entry.907499257"
                 size="sm"
                 type="email"
                 value={email}
@@ -52,7 +81,6 @@ return (
 
             <Form.Group controlId="title">
               <Form.Control
-                name="entry.1465924067"
                 size="sm"
                 type="text"
                 value={title}
@@ -63,7 +91,6 @@ return (
 
             <Form.Group controlId="message">
               <Form.Control
-                name="entry.344109496"
                 size="sm"
                 as='textarea'
                 type="text"
