@@ -24,7 +24,7 @@ function App() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-          <Nav.Link onClick={() => setExpanded(false)} href="/Ritesh-Maharjan/#">HOME</Nav.Link>
+          <Nav.Link onClick={() => setExpanded(false)} href="#Ritesh-Maharjan">HOME</Nav.Link>
           <Nav.Link onClick={() => setExpanded(false)} href="#about">ABOUT</Nav.Link>
           <Nav.Link onClick={() => setExpanded(false)} href="#skills">SKILLS</Nav.Link>
           <Nav.Link onClick={() => setExpanded(false)} href="#projects">PORTFOLIO</Nav.Link>
