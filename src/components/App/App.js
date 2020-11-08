@@ -12,7 +12,7 @@ import Skills from '../Skills/Skills.js'
 import Project from '../Projects/Project.js'
 import Contact from '../Contacts/Contact.js'
 
-import resume from './Ritesh_Maharjan_Resume.pdf'
+import resume from './Ritesh_Maharjan_resume.pdf'
 
 function App() {
   const [expanded, setExpanded] = useState(false)
