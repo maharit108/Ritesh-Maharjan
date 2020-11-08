@@ -20,11 +20,11 @@ function App() {
     <Fragment>
       <Home />
       <Navbar bg="dark" variant="dark" expand="md" sticky="top" expanded={expanded}>
-        <Navbar.Brand href='#'> RITESH MAHARJAN </Navbar.Brand>
+        <Navbar.Brand href='#home'> RITESH MAHARJAN </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-          <Nav.Link onClick={() => setExpanded(false)} href="#">HOME</Nav.Link>
+          <Nav.Link onClick={() => setExpanded(false)} href="#home">HOME</Nav.Link>
           <Nav.Link onClick={() => setExpanded(false)} href="#about">ABOUT</Nav.Link>
           <Nav.Link onClick={() => setExpanded(false)} href="#skills">SKILLS</Nav.Link>
           <Nav.Link onClick={() => setExpanded(false)} href="#projects">PORTFOLIO</Nav.Link>
