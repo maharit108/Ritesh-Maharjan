@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Ritesh-Maharjan/static/css/main.da487751.chunk.css",
-    "main.js": "/Ritesh-Maharjan/static/js/main.aad471e5.chunk.js",
-    "main.js.map": "/Ritesh-Maharjan/static/js/main.aad471e5.chunk.js.map",
+    "main.js": "/Ritesh-Maharjan/static/js/main.01597e3c.chunk.js",
+    "main.js.map": "/Ritesh-Maharjan/static/js/main.01597e3c.chunk.js.map",
     "runtime-main.js": "/Ritesh-Maharjan/static/js/runtime-main.feb63659.js",
     "runtime-main.js.map": "/Ritesh-Maharjan/static/js/runtime-main.feb63659.js.map",
     "static/css/2.95f25948.chunk.css": "/Ritesh-Maharjan/static/css/2.95f25948.chunk.css",
@@ -16,7 +16,6 @@
     "static/css/3.386b6ee0.chunk.css.map": "/Ritesh-Maharjan/static/css/3.386b6ee0.chunk.css.map",
     "static/css/main.da487751.chunk.css.map": "/Ritesh-Maharjan/static/css/main.da487751.chunk.css.map",
     "static/js/2.bc1ca64a.chunk.js.LICENSE.txt": "/Ritesh-Maharjan/static/js/2.bc1ca64a.chunk.js.LICENSE.txt",
-    "static/media/Ritesh_Maharjan_Resume.0218450f.pdf": "/Ritesh-Maharjan/static/media/Ritesh_Maharjan_Resume.0218450f.pdf",
     "static/media/Ritesh_Maharjan_resume.0218450f.pdf": "/Ritesh-Maharjan/static/media/Ritesh_Maharjan_resume.0218450f.pdf",
     "static/media/apparels.296d3335.gif": "/Ritesh-Maharjan/static/media/apparels.296d3335.gif",
     "static/media/coffeeTalks.0193611b.gif": "/Ritesh-Maharjan/static/media/coffeeTalks.0193611b.gif",
@@ -34,6 +33,6 @@
     "static/css/2.95f25948.chunk.css",
     "static/js/2.bc1ca64a.chunk.js",
     "static/css/main.da487751.chunk.css",
-    "static/js/main.aad471e5.chunk.js"
+    "static/js/main.01597e3c.chunk.js"
   ]
 }
