@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Ritesh-Maharjan/static/css/main.da487751.chunk.css",
+    "main.js": "/Ritesh-Maharjan/static/js/main.47004add.chunk.js",
+    "main.js.map": "/Ritesh-Maharjan/static/js/main.47004add.chunk.js.map",
+    "runtime-main.js": "/Ritesh-Maharjan/static/js/runtime-main.feb63659.js",
+    "runtime-main.js.map": "/Ritesh-Maharjan/static/js/runtime-main.feb63659.js.map",
+    "static/css/2.95f25948.chunk.css": "/Ritesh-Maharjan/static/css/2.95f25948.chunk.css",
+    "static/js/2.bc1ca64a.chunk.js": "/Ritesh-Maharjan/static/js/2.bc1ca64a.chunk.js",
+    "static/js/2.bc1ca64a.chunk.js.map": "/Ritesh-Maharjan/static/js/2.bc1ca64a.chunk.js.map",
+    "static/css/3.386b6ee0.chunk.css": "/Ritesh-Maharjan/static/css/3.386b6ee0.chunk.css",
+    "static/js/3.2853b316.chunk.js": "/Ritesh-Maharjan/static/js/3.2853b316.chunk.js",
+    "static/js/3.2853b316.chunk.js.map": "/Ritesh-Maharjan/static/js/3.2853b316.chunk.js.map",
+    "index.html": "/Ritesh-Maharjan/index.html",
+    "static/css/2.95f25948.chunk.css.map": "/Ritesh-Maharjan/static/css/2.95f25948.chunk.css.map",
+    "static/css/3.386b6ee0.chunk.css.map": "/Ritesh-Maharjan/static/css/3.386b6ee0.chunk.css.map",
+    "static/css/main.da487751.chunk.css.map": "/Ritesh-Maharjan/static/css/main.da487751.chunk.css.map",
+    "static/js/2.bc1ca64a.chunk.js.LICENSE.txt": "/Ritesh-Maharjan/static/js/2.bc1ca64a.chunk.js.LICENSE.txt",
+    "static/media/Ritesh_Maharjan_resume.b37d001e.pdf": "/Ritesh-Maharjan/static/media/Ritesh_Maharjan_resume.b37d001e.pdf",
+    "static/media/apparels.296d3335.gif": "/Ritesh-Maharjan/static/media/apparels.296d3335.gif",
+    "static/media/coffeeTalks.0193611b.gif": "/Ritesh-Maharjan/static/media/coffeeTalks.0193611b.gif",
+    "static/media/farmChat.2e11966e.gif": "/Ritesh-Maharjan/static/media/farmChat.2e11966e.gif",
+    "static/media/github.d1bb13ce.svg": "/Ritesh-Maharjan/static/media/github.d1bb13ce.svg",
+    "static/media/about.css": "/Ritesh-Maharjan/static/media/landing.47f845ae.jpeg",
+    "static/media/linkedin.8861cb0e.svg": "/Ritesh-Maharjan/static/media/linkedin.8861cb0e.svg",
+    "static/media/mail.5dac909d.png": "/Ritesh-Maharjan/static/media/mail.5dac909d.png",
+    "static/media/oxo.f7c6099f.gif": "/Ritesh-Maharjan/static/media/oxo.f7c6099f.gif",
+    "static/media/photo.7e7c3335.jpg": "/Ritesh-Maharjan/static/media/photo.7e7c3335.jpg",
+    "static/media/skills.css": "/Ritesh-Maharjan/static/media/skill.28ed1440.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.feb63659.js",
+    "static/css/2.95f25948.chunk.css",
+    "static/js/2.bc1ca64a.chunk.js",
+    "static/css/main.da487751.chunk.css",
+    "static/js/main.47004add.chunk.js"
+  ]
+}
