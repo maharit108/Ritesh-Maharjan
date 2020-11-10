@@ -12,6 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100vw;
 }
 
 .contactTitle {
@@ -27,7 +28,7 @@
 }
 
 .formDiv {
-  padding: 40px;
+  padding-bottom: 40px;
 }
 
 Form {
