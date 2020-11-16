@@ -109,7 +109,8 @@ return (
 
           <div className='foot1'>
             <h4 className='footTitle'>CONTACT</h4>
-            <p className='footp'>maha.rit@gmail.com</p>
+            <p className='footp'>shicrmah@gmail.com</p>
+            <p className='footp'>maha.rit108@gmail.com</p>
             <p className='footp'>(773)-663-3485</p>
           </div>
 
