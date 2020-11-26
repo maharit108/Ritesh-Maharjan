@@ -9,7 +9,7 @@ const Skills = () => (
         <h1>MY SKILLS</h1>
         <div className='row-in'>
           <h2 className='skillTitle'>Languages & Frameworks</h2>
-          <div className='sk'>React, JavaScript, JQuery, HTML/CSS, Bootstrap, Express, AJAX, Axios, Python</div>
+          <div className='sk'>React, JavaScript, JQuery, HTML/CSS, Bootstrap, Express, AJAX, Axios, Python, Django</div>
         </div>
 
           <div className='row-in'>

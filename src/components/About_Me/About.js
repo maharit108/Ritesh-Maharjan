@@ -9,7 +9,7 @@ const About = () => (
     <div className='row'>
       <div className='me who'>
       <h4 className='titleme'>Introduction</h4>
-      <p>I am a full-stack developer.I like to write clear, concise codes, creating products with an artistic touch. I believe in working smart, being consistent and accountable. I love challenges and roadblocks as challenges help me grow.</p>
+      <p>I am a full-stack developer. I like to write clear, concise codes to create products with an artistic touch. I believe in working smart, being consistent and accountable. I love challenges and roadblocks as challenges help me grow.</p>
       </div>
       <div className='me where'>
       <h4 className='titleme'>Location</h4>
@@ -19,7 +19,7 @@ const About = () => (
     <div className='row'>
       <div className='me background'>
       <h4 className='titleme'>Background</h4>
-      <p>I was a Civil engineer in Nepal for around 2 years. After moving to US, I did some survival jobs before finally pursuing my ambition of being a software engineer. </p>
+      <p>I was a Civil engineer in Nepal for around 2 years. After moving to US, I did some survival jobs (around 8 months as a Pharmacy Technician) before finally pursuing my ambition of being a software engineer. </p>
       </div>
       <div className='me interests'>
       <h4 className='titleme'>Interests</h4>
