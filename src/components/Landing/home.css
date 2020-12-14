@@ -1,12 +1,11 @@
 .home {
-  height: 40vh;
+  height: 92vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: rgba(52,59,63,0.9);
-  /* background-image: radial-gradient(#e1e6eb, #116466); */
-  /* border-bottom: 0.5px solid rgba(50, 50, 50, 0.4); */
+  background-image: radial-gradient(#e1e6eb, #116466);
+  border-bottom: 0.5px solid rgba(50, 50, 50, 0.4);
   border-bottom: 1px solid black;
   color: black;
 }
@@ -17,8 +16,7 @@
   height: 200px;
   margin: 5vw;
   overflow: hidden;
-  /* border: 3px solid gray; */
-  border: 2px solid black;
+  border: 3px solid gray;
 }
 
 img {
