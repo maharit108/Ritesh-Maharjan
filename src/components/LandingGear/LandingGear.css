@@ -59,13 +59,21 @@
   left: -40px;
 }
 
-.gearImg {
+.gearBox > .gearImg {
   height: 100px;
   width: 100px;
   position: relative;
   top: 20px;
   right: 10px;
   border-radius: 50%;
+}
+
+.gearBox > .MuiSvgIcon-root {
+  font-size: 100px;
+  position: relative;
+  top: 20px;
+  right: 10px;
+  color: black;
 }
 
 .gearItem {
@@ -96,4 +104,9 @@
   top: 55px;
   left: 0;
   font-size: 18px;
+}
+
+.gearLanding__top, .gearLanding__bottom {
+  font-size: 8vh;
+  padding: 20px;
 }

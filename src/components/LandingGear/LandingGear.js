@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 import './LandingGear.css'
 import pho from './../Landing/photo.jpg'
+import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
 
 
 const LandingGear = () => {
@@ -9,13 +10,14 @@ const LandingGear = () => {
 
   return (
     <div id='gearLanding' className='gearLanding'>
-      <div>1</div>
+      <div className='gearLanding__top'>1</div>
       <div>
         <div className='outerGearBox' onMouseOut={() => setHover(false)}></div>
 
         <div className='gearWrapper' onMouseEnter={() => setHover(true)} >
           <div className='gearBox' >
-            <img className='gearImg' src={pho} alt='ritesh Mmharjan img' />
+            <img className='gearImg' src={pho} alt='ritesh Mmharjan img' style={!isHover ? {display: `none`} : {display: `block`}} />
+            {!isHover && <HomeOutlinedIcon />}
           </div>
         </div>
 
@@ -27,20 +29,20 @@ const LandingGear = () => {
               <a href='#skillsGear'>My Projects</a>
             </div>
             <div className='gearItem' style= {isHover ? {transform: `translate(${140}px, ${80}px)`} : {transform: `translate(${0}px)`}}>
-              <a href='#projectsGear'>3</a>
+              <a href='#projectsGear'>Education and Experiences</a>
             </div>
             <div className='gearItem' style= {isHover ? {transform: `translateY(${160}px)`} : {transform: `translateY(${0}px)`}}>
-              <a href='#storyGear'>4</a>
+              <a href='#storyGear'>Contact Me</a>
             </div>
             <div className='gearItem' style= {isHover ? {transform: `translate(${-140}px, ${80}px)`} : {transform: `translate(${0}px)`}}>
-              <a href='#galleryGear'>5</a>
+              <a href='#galleryGear'>Resume</a>
             </div>
             <div className='gearItem' style= {isHover ? {transform: `translate(${-140}px, ${-80}px)`} : {transform: `translate(${0}px)`}}>
               <a href='#contactsGear'>Skills</a>
             </div>
           </div>
       </div>
-      <div>2</div>
+      <div className='gearLanding__bottom'>1</div>
     </div>
   )
 }
