@@ -18,7 +18,7 @@ import resume from './Ritesh_Maharjan_resume.pdf'
 
 function App() {
   const [expanded, setExpanded] = useState(false)
-  const [switchGear, setSwitchGear] = useState(false)
+  const [switchGear, setSwitchGear] = useState(true)
   return (
     <Fragment>
       { switchGear ? (
