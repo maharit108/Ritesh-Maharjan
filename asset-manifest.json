@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Ritesh-Maharjan/static/css/main.4e0d6ba0.chunk.css",
-    "main.js": "/Ritesh-Maharjan/static/js/main.a22ce9b5.chunk.js",
-    "main.js.map": "/Ritesh-Maharjan/static/js/main.a22ce9b5.chunk.js.map",
+    "main.css": "/Ritesh-Maharjan/static/css/main.ca13b0c6.chunk.css",
+    "main.js": "/Ritesh-Maharjan/static/js/main.b4c1d75b.chunk.js",
+    "main.js.map": "/Ritesh-Maharjan/static/js/main.b4c1d75b.chunk.js.map",
     "runtime-main.js": "/Ritesh-Maharjan/static/js/runtime-main.af73ffa0.js",
     "runtime-main.js.map": "/Ritesh-Maharjan/static/js/runtime-main.af73ffa0.js.map",
     "static/css/2.95f25948.chunk.css": "/Ritesh-Maharjan/static/css/2.95f25948.chunk.css",
@@ -14,7 +14,7 @@
     "index.html": "/Ritesh-Maharjan/index.html",
     "static/css/2.95f25948.chunk.css.map": "/Ritesh-Maharjan/static/css/2.95f25948.chunk.css.map",
     "static/css/3.386b6ee0.chunk.css.map": "/Ritesh-Maharjan/static/css/3.386b6ee0.chunk.css.map",
-    "static/css/main.4e0d6ba0.chunk.css.map": "/Ritesh-Maharjan/static/css/main.4e0d6ba0.chunk.css.map",
+    "static/css/main.ca13b0c6.chunk.css.map": "/Ritesh-Maharjan/static/css/main.ca13b0c6.chunk.css.map",
     "static/js/2.31feee59.chunk.js.LICENSE.txt": "/Ritesh-Maharjan/static/js/2.31feee59.chunk.js.LICENSE.txt",
     "static/media/Ritesh_Maharjan_resume.856449e5.pdf": "/Ritesh-Maharjan/static/media/Ritesh_Maharjan_resume.856449e5.pdf",
     "static/media/apparels.296d3335.gif": "/Ritesh-Maharjan/static/media/apparels.296d3335.gif",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.af73ffa0.js",
     "static/css/2.95f25948.chunk.css",
     "static/js/2.31feee59.chunk.js",
-    "static/css/main.4e0d6ba0.chunk.css",
-    "static/js/main.a22ce9b5.chunk.js"
+    "static/css/main.ca13b0c6.chunk.css",
+    "static/js/main.b4c1d75b.chunk.js"
   ]
 }
