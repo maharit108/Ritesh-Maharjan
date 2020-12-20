@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Ritesh-Maharjan/static/css/main.10296c46.chunk.css",
-    "main.js": "/Ritesh-Maharjan/static/js/main.c85d71d9.chunk.js",
-    "main.js.map": "/Ritesh-Maharjan/static/js/main.c85d71d9.chunk.js.map",
-    "runtime-main.js": "/Ritesh-Maharjan/static/js/runtime-main.feb63659.js",
-    "runtime-main.js.map": "/Ritesh-Maharjan/static/js/runtime-main.feb63659.js.map",
+    "main.css": "/Ritesh-Maharjan/static/css/main.4e0d6ba0.chunk.css",
+    "main.js": "/Ritesh-Maharjan/static/js/main.a22ce9b5.chunk.js",
+    "main.js.map": "/Ritesh-Maharjan/static/js/main.a22ce9b5.chunk.js.map",
+    "runtime-main.js": "/Ritesh-Maharjan/static/js/runtime-main.af73ffa0.js",
+    "runtime-main.js.map": "/Ritesh-Maharjan/static/js/runtime-main.af73ffa0.js.map",
     "static/css/2.95f25948.chunk.css": "/Ritesh-Maharjan/static/css/2.95f25948.chunk.css",
-    "static/js/2.bc1ca64a.chunk.js": "/Ritesh-Maharjan/static/js/2.bc1ca64a.chunk.js",
-    "static/js/2.bc1ca64a.chunk.js.map": "/Ritesh-Maharjan/static/js/2.bc1ca64a.chunk.js.map",
+    "static/js/2.31feee59.chunk.js": "/Ritesh-Maharjan/static/js/2.31feee59.chunk.js",
+    "static/js/2.31feee59.chunk.js.map": "/Ritesh-Maharjan/static/js/2.31feee59.chunk.js.map",
     "static/css/3.386b6ee0.chunk.css": "/Ritesh-Maharjan/static/css/3.386b6ee0.chunk.css",
-    "static/js/3.2853b316.chunk.js": "/Ritesh-Maharjan/static/js/3.2853b316.chunk.js",
-    "static/js/3.2853b316.chunk.js.map": "/Ritesh-Maharjan/static/js/3.2853b316.chunk.js.map",
+    "static/js/3.066ee8ab.chunk.js": "/Ritesh-Maharjan/static/js/3.066ee8ab.chunk.js",
+    "static/js/3.066ee8ab.chunk.js.map": "/Ritesh-Maharjan/static/js/3.066ee8ab.chunk.js.map",
     "index.html": "/Ritesh-Maharjan/index.html",
     "static/css/2.95f25948.chunk.css.map": "/Ritesh-Maharjan/static/css/2.95f25948.chunk.css.map",
     "static/css/3.386b6ee0.chunk.css.map": "/Ritesh-Maharjan/static/css/3.386b6ee0.chunk.css.map",
-    "static/css/main.10296c46.chunk.css.map": "/Ritesh-Maharjan/static/css/main.10296c46.chunk.css.map",
-    "static/js/2.bc1ca64a.chunk.js.LICENSE.txt": "/Ritesh-Maharjan/static/js/2.bc1ca64a.chunk.js.LICENSE.txt",
-    "static/media/Ritesh_Maharjan_resume.ae3618f2.pdf": "/Ritesh-Maharjan/static/media/Ritesh_Maharjan_resume.ae3618f2.pdf",
+    "static/css/main.4e0d6ba0.chunk.css.map": "/Ritesh-Maharjan/static/css/main.4e0d6ba0.chunk.css.map",
+    "static/js/2.31feee59.chunk.js.LICENSE.txt": "/Ritesh-Maharjan/static/js/2.31feee59.chunk.js.LICENSE.txt",
+    "static/media/Ritesh_Maharjan_resume.856449e5.pdf": "/Ritesh-Maharjan/static/media/Ritesh_Maharjan_resume.856449e5.pdf",
     "static/media/apparels.296d3335.gif": "/Ritesh-Maharjan/static/media/apparels.296d3335.gif",
     "static/media/coffeeTalks.0193611b.gif": "/Ritesh-Maharjan/static/media/coffeeTalks.0193611b.gif",
     "static/media/farmChat.2e11966e.gif": "/Ritesh-Maharjan/static/media/farmChat.2e11966e.gif",
@@ -29,10 +29,10 @@
     "static/media/skills.css": "/Ritesh-Maharjan/static/media/skill.28ed1440.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.feb63659.js",
+    "static/js/runtime-main.af73ffa0.js",
     "static/css/2.95f25948.chunk.css",
-    "static/js/2.bc1ca64a.chunk.js",
-    "static/css/main.10296c46.chunk.css",
-    "static/js/main.c85d71d9.chunk.js"
+    "static/js/2.31feee59.chunk.js",
+    "static/css/main.4e0d6ba0.chunk.css",
+    "static/js/main.a22ce9b5.chunk.js"
   ]
 }
