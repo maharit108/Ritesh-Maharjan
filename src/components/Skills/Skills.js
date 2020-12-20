@@ -9,12 +9,12 @@ const Skills = () => (
         <h1>MY SKILLS</h1>
         <div className='row-in'>
           <h2 className='skillTitle'>Languages & Frameworks</h2>
-          <div className='sk'>React, JavaScript, JQuery, HTML/CSS, Bootstrap, Express, AJAX, Axios, Python, Django</div>
+          <div className='sk'>React, JavaScript, JQuery, HTML/CSS, Bootstrap, Express, AJAX, Axios, Python, Django, Socket.io, </div>
         </div>
 
           <div className='row-in'>
             <h2 className='skillTitle'>Management & Environment</h2>
-            <div className='sk'>Git, Github, heroku, Node.js</div>
+            <div className='sk'>Git, Github, Heroku, Node.js, Firebase</div>
           </div>
 
             <div className='row-in'>
@@ -24,7 +24,7 @@ const Skills = () => (
 
               <div className='row-in'>
                 <h2 className='skillTitle'>Databases</h2>
-                <div className='sk'>MongoDB, postgreSQL</div>
+                <div className='sk'>MongoDB, PostgreSQL, Firebase </div>
               </div>
     </div>
   </div>
