@@ -1,5 +1,4 @@
 .skills {
-  min-height: 100vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -9,6 +8,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 0.5px solid rgba(50, 50, 50, 0.4);
+  padding: 20px;
 }
 
 .wrapper{

@@ -1,5 +1,4 @@
 .contacts {
-  min-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -16,7 +15,7 @@
 }
 
 .contactTitle {
-  margin: 8vh;
+  margin: 3vh;
   font-family: 'Architects Daughter', cursive
 }
 

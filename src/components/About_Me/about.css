@@ -1,5 +1,4 @@
 .about {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,11 +36,11 @@
 }
 
 p {
-  text-align: justify;
+  text-align: center;
 }
 
 .aboutTitle {
-  margin: 8vh;
+  margin: 3vh;
   font-family: 'Architects Daughter', cursive
 }
 

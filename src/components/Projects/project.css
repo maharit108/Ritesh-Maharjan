@@ -1,5 +1,4 @@
 .project {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,13 +21,13 @@
 }
 
 .proj {
-  margin: 20px 20px 20px 20px;
+  margin: 20px;
   max-width: 400px;
   width: 43vw;
 }
 
 .projectTitle {
-  margin: 8vh auto;
+  margin: 3vh auto;
   font-family: 'Architects Daughter', cursive
 }
 
@@ -43,7 +42,7 @@
   box-shadow: 2px 4px 4px 4px rgba(0,0,0,.6);
   padding: 12px;
   border-radius: 10px;
-  height: 635px;
+  height: 650px;
   min-width: 400px;
 }
 
