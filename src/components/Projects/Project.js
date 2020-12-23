@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import Card from 'react-bootstrap/Card'
@@ -39,16 +40,19 @@ const Project = () => (
           <div className='toolUse'>React, JavaScript, CSS, Axios, Bootstrap, MongoDB, Mongoose, Express </div>
         </Card.Body>
         <Card.Footer>
-        <div className='icon'>
-        <a href="https://github.com/maharit108/apparel-client" target="_blank" rel="noopener noreferrer">
-          <img className='img-fluid mx-auto mb-2' src={github} alt='github Link' />
-        </a>
-        </div>
-        <div className='icon'>
-          <a href="https://maharit108.github.io/apparel-client/#/" target="_blank" rel="noopener noreferrer">
-          <img className='img-fluid mx-auto mb-2' src={deploy} alt='deployed Link' />
-        </a>
-        </div>
+          <div className='icon'>
+            <Link to='/projects/Apparels'>Story</Link>
+          </div>
+          <div className='icon'>
+            <a href="https://github.com/maharit108/apparel-client" target="_blank" rel="noopener noreferrer">
+              <img className='img-fluid mx-auto mb-2' src={github} alt='github Link' />
+            </a>
+          </div>
+          <div className='icon'>
+              <a href="https://maharit108.github.io/apparel-client/#/" target="_blank" rel="noopener noreferrer">
+              <img className='img-fluid mx-auto mb-2' src={deploy} alt='deployed Link' />
+            </a>
+          </div>
         </Card.Footer>
       </Card>
       </div>
