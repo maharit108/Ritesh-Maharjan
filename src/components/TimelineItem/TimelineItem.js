@@ -1,21 +1,21 @@
 import React from 'react'
 
 import './TimelineItem.css'
-function TimelineItem({ data }) {
+function TimeLineItem({ data }) {
     console.log(data)
     return (
-        <div className='timelineitem'>
-            <div className='timelineitem__content'>
-                <span className='timelineitem__steps'>{data.step}</span>
-                <span className='timelineitem__title'>
+        <div className='timeLineItem'>
+            <div className='timeLineItem__content'>
+                <span className='timeLineItem__circle'></span>
+                <span className='timeLineItem__steps'>{data.step}</span>
+                <span className='timeLineItem__title'>
                     {data.title}
                 </span>
                 <p>{data.info}</p>
                 {data.image && (<img src={data.image} alt='' />)}
             </div>
-            <span className='timelineitem__circle'>o</span>
         </div>
     )
 }
 
-export default TimelineItem
+export default TimeLineItem

@@ -1,4 +1,4 @@
-.timelineitem {
+.timeLineItem {
     display: flex;
     justify-content: flex-end;
     padding-right: 30px;
@@ -6,14 +6,14 @@
     width: 50%;
 }
 
-.timelineitem:nth-child(odd) {
+.timeLineItem:nth-child(odd) {
     align-self: flex-end;
     justify-content: flex-start;
     padding-left: 30px;
     padding-right: 0px;
 }
 
-.timelineitem__content {
+.timeLineItem__content {
     max-width: 60%;
     background-color: #fff;
     border-radius: 5px;
@@ -27,12 +27,12 @@
     position: relative;
 }
 
-.timelineitem:nth-child(odd) .timelineitem__content {
+.timeLineItem:nth-child(odd) .timeLineItem__content {
     align-items: flex-start;
     text-align: left;
 }
 
-.timelineitem__content::after {
+.timeLineItem__content::after {
     content: '';
     background-color: #fff;
     width: 15px;
@@ -44,13 +44,13 @@
     box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
 }
 
-.timelineitem:nth-child(odd) .timelineitem__content::after {
+.timeLineItem:nth-child(odd) .timeLineItem__content::after {
     right: auto;
     left: -7.5px;
     box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-.timelineitem__title {
+.timeLineItem__title {
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -61,12 +61,12 @@
     text-transform: uppercase;
 }
 
-.timelineitem:nth-child(odd) .timelineitem__title {
+.timeLineItem:nth-child(odd) .timeLineItem__title {
   left: auto;
   right: 5px;  
 }
 
-.timelineitem__steps {
+.timeLineItem__steps {
     height: 40px;
     width: 40px;
     color: black;
@@ -75,25 +75,26 @@
     text-decoration: underline;
 }
 
-.timelineitem__content p {
+.timeLineItem__content p {
     font-size: 16px;
     line-height: 24px;
     margin: 15px 0;
+    text-align: left;
 }
 
-.timelineitem__content .timelineitem__circle {
+ .timeLineItem__circle {
     background-color: #fff;
     border: 3px solid brown;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     position: absolute;
-    top: calc(50% - 10px);
+    top: 20px;
     right: -40px;
     z-index: 100;
 }
 
-.timelineitem:nth-child(odd) .timelineitem__content .timelineitem__circle {
+.timeLineItem:nth-child(odd) .timeLineItem__content .timeLineItem__circle {
     right: auto;
     left: -40px;
 }
