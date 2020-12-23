@@ -1,5 +1,5 @@
 import React from 'react'
-import TimelineItem from '../TimelineItem/TimelineItem.js'
+import TimeLineItem from '../TimelineItem/TimelineItem.js'
 import projectData from '../projectData/projectData.js'
 
 import './Timeline.css'
@@ -9,7 +9,7 @@ function Timeline() {
         <div className='timeline'>
             <div className='timeline__wrapper'>
             {projectData.map((data, idx) => (
-                <TimelineItem data={data} key={idx} />
+                <TimeLineItem data={data} key={idx} />
             ))}
         </div>
         </div>
