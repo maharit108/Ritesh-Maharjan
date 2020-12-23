@@ -1,0 +1,26 @@
+.timeline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: beige;
+    min-height: 100vh;
+    margin: 0;
+    width: 100%;
+}
+
+.timeline__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+    position: relative;
+}
+
+.timeline__wrapper::after {
+    background-color: brown;
+    content: '';
+    position: absolute;
+    left: calc(50% - 2px);
+    width: 4px;
+    height: 100%
+}
