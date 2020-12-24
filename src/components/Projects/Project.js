@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-
+import { Link, Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.css'
 import Card from 'react-bootstrap/Card'
 
@@ -13,8 +12,12 @@ import deploy from './deploy.png'
 
 import './project.css'
 
+import ModalComp from '../ModalComp.js'
 
-const Project = () => (
+
+const Project = () => {
+  <Route path='/projects/apparel' component={ModalComp} />
+  return (
   <div id='projects' className='project'>
     <h2 className='projectTitle'> PORTFOLIO</h2>
 
@@ -41,7 +44,7 @@ const Project = () => (
         </Card.Body>
         <Card.Footer>
           <div className='icon'>
-            <Link to='/projects/Apparels'>Story</Link>
+            <Link path='/projects/apparel'>Story</Link>
           </div>
           <div className='icon'>
             <a href="https://github.com/maharit108/apparel-client" target="_blank" rel="noopener noreferrer">
@@ -160,6 +163,6 @@ const Project = () => (
     </div>
     <br />
   </div>
-)
+)}
 
 export default Project

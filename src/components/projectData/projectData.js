@@ -1,4 +1,4 @@
-import pho from './../Landing/photo.jpg'
+// import pho from './../Landing/photo.jpg'
 
 const projectData = [
     {
@@ -9,7 +9,7 @@ const projectData = [
     },
     {
         step: '2',
-        title: 'abcdeyo',
+        title: 'abc',
         info: 'Even with the (lack of) IE support weighted in, the accepted answer should be changed to this as it also scales small images up, not just big ones down. Any company that takes itself seriously should just disable its site entirely on IE or at least show a message that some features may not work properly and the user should change browsers to be able to use the site properly.'
     }
 ]
