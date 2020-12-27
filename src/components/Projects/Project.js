@@ -44,7 +44,7 @@ const Project = () => {
         </Card.Body>
         <Card.Footer>
           <div className='icon'>
-            <Link path='/projects/apparel'>Story</Link>
+            <Link to='/projects/apparel'>Story</Link>
           </div>
           <div className='icon'>
             <a href="https://github.com/maharit108/apparel-client" target="_blank" rel="noopener noreferrer">
