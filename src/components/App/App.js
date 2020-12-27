@@ -18,8 +18,6 @@ import resume from './Ritesh_Maharjan_resume.pdf'
 
 function App() {
   return (
-    <>
-     <Route exact path='/' render={() => (
         <>
           <Home />
           <Navbar bg="dark" variant="dark" expand="md" sticky="top" collapseOnSelect >
@@ -41,9 +39,6 @@ function App() {
           <Project />
           <Contact />
        </>
-      )} />
-      <Route path='/projects/:name' component={Timeline} />
-    </>
   )
 }
 

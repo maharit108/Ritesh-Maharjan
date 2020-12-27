@@ -44,9 +44,6 @@ const Project = () => {
         </Card.Body>
         <Card.Footer>
           <div className='icon'>
-            <Link to='/projects/apparel'>Story</Link>
-          </div>
-          <div className='icon'>
             <a href="https://github.com/maharit108/apparel-client" target="_blank" rel="noopener noreferrer">
               <img className='img-fluid mx-auto mb-2' src={github} alt='github Link' />
             </a>
