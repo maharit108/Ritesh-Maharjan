@@ -22,7 +22,7 @@ const Contact = () => {
 
   const handleSubmit = e => {
     e.preventDefault()
-    if (!/^[a-zA-Z]+$/.test(senderName)) {
+    if (!/^[a-zA-Z\s]+$/.test(senderName)) {
       setsenderName('')
       setEmail('')
       setTitle('')

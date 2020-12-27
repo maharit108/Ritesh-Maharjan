@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link, Route } from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.css'
+
 import Card from 'react-bootstrap/Card'
 
 import oxo from './oxo.gif'
@@ -12,11 +11,7 @@ import deploy from './deploy.png'
 
 import './project.css'
 
-import ModalComp from '../ModalComp.js'
-
-
 const Project = () => {
-  <Route path='/projects/apparel' component={ModalComp} />
   return (
   <div id='projects' className='project'>
     <h2 className='projectTitle'> PORTFOLIO</h2>
@@ -56,7 +51,6 @@ const Project = () => {
         </Card.Footer>
       </Card>
       </div>
-
       <div className='proj'>
       <Card>
         <Card.Img variant="top" src={farmChat} />
