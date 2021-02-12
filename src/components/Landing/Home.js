@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './home.css'
-import pho from './photo.jpg'
+import pho from '../../static/logoIcon/photo.jpg'
 
 
 const Home = () => (

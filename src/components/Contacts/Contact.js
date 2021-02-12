@@ -5,12 +5,12 @@ import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import { db } from './firebase'
 
-import dwn from './dwn.jpg'
-import mail from './mail.png'
-import linkedin from './linkedin.svg'
-import github from './../Projects/github.svg'
+import dwn from '../../static/logoIcon/dwn.jpg'
+import mail from '../../static/logoIcon/mail.png'
+import linkedin from '../../static/logoIcon/linkedin.svg'
+import github from '../../static/logoIcon/github.svg'
 
-import resume from './../App/Ritesh_Maharjan_resume.pdf'
+import resume from '../../static/Ritesh_Maharjan_resume.pdf'
 
 import './contact.css'
 
@@ -110,7 +110,6 @@ return (
 
             <div className='foot1'>
               <h4 className='footTitle'>CONTACT</h4>
-              <p className='footp'>shicrmah@gmail.com</p>
               <p className='footp'>maha.rit108@gmail.com</p>
               <p className='footp'>(773)-663-3485</p>
             </div>
