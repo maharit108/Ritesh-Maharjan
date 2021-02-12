@@ -105,42 +105,46 @@ return (
           </Form>
         </div>
         </div>
-        <div className='footer'>
+        <div className='footerWrapper'>
+          <div className='footer'>
 
-          <div className='foot1'>
-            <h4 className='footTitle'>CONTACT</h4>
-            <p className='footp'>shicrmah@gmail.com</p>
-            <p className='footp'>maha.rit108@gmail.com</p>
-            <p className='footp'>(773)-663-3485</p>
-          </div>
-
-          <div>
-          <div className='footLogo'>
-            <div className='ml'>
-            <a href="mailto:maha.rit108@gmail.com?subject=Hello!&body=Hi" target="_blank" rel="noopener noreferrer">
-            <img className='footLogoml' src={mail} alt='gmail Link' />
-            </a>
+            <div className='foot1'>
+              <h4 className='footTitle'>CONTACT</h4>
+              <p className='footp'>shicrmah@gmail.com</p>
+              <p className='footp'>maha.rit108@gmail.com</p>
+              <p className='footp'>(773)-663-3485</p>
             </div>
-            <div className='gt'>
-            <a href="https://github.com/maharit108" target="_blank" rel="noopener noreferrer">
-            <img className='footLogogt' src={github} alt='github Link' />
-            </a>
-            </div>
-            <div className='ln'>
-            <a href="https://www.linkedin.com/in/ritesh-maharjan/" target="_blank" rel="noreferrer">
-            <img className='footLogoln' src={linkedin} alt='linkedin Link' />
-            </a>
-            </div>
-          </div>
-          <div className='smlScn'>
-            <p className='smp'>(773)-663-3485  |  <span>  RESUME  <a href={resume} download><img className='dwn' src={dwn} alt='deployed Link' /></a></span></p>
-          </div>
-          </div>
 
-          <div className='foot2'>
-              <h4 className='footTitle2'>RESUME  <a href={resume} download><img className='dwn' src={dwn} alt='deployed Link' /></a></h4>
-          </div>
+            <div>
+            <div className='footLogo'>
+              <div className='ml'>
+              <a href="mailto:maha.rit108@gmail.com?subject=Hello!&body=Hi" target="_blank" rel="noopener noreferrer">
+              <img className='footLogoml' src={mail} alt='gmail Link' />
+              </a>
+              </div>
+              <div className='gt'>
+              <a href="https://github.com/maharit108" target="_blank" rel="noopener noreferrer">
+              <img className='footLogogt' src={github} alt='github Link' />
+              </a>
+              </div>
+              <div className='ln'>
+              <a href="https://www.linkedin.com/in/ritesh-maharjan/" target="_blank" rel="noreferrer">
+              <img className='footLogoln' src={linkedin} alt='linkedin Link' />
+              </a>
+              </div>
+            </div>
+            <div className='smlScn'>
+              <p className='smp'>(773)-663-3485  |  <span>  RESUME  <a href={resume} download><img className='dwn' src={dwn} alt='deployed Link' /></a></span></p>
+            </div>
+            </div>
 
+            <div className='foot2'>
+              <a href={resume} download>
+                <h4 className='footTitle2'>RESUME </h4><img className='dwn' src={dwn} alt='deployed Link' />
+              </a>
+            </div>
+
+          </div>
         </div>
     </div>
   )

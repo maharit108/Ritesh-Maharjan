@@ -3,13 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(175,210,117,0.8);
-  background-image: linear-gradient(rgba(175,210,117,0.8), #7e685a);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-bottom: 0.5px solid rgba(50, 50, 50, 0.4);
   padding: 20px;
+  background-color: rgb(237, 240, 232);
 }
 
 .row {
@@ -21,14 +16,14 @@
 }
 
 .proj {
-  margin: 20px;
+  margin: 25px;
   max-width: 400px;
   width: 43vw;
 }
 
 .projectTitle {
-  margin: 3vh auto;
-  font-family: 'Architects Daughter', cursive
+  margin: 35px auto;
+  font-family: 'Architects Daughter', cursive;
 }
 
 .toolUse {
@@ -39,7 +34,7 @@
 }
 
 .card {
-  box-shadow: 2px 4px 4px 4px rgba(0,0,0,.6);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   padding: 12px;
   border-radius: 10px;
   height: 650px;

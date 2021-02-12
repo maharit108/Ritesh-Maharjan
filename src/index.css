@@ -4,6 +4,11 @@
 .body {
   margin: 0px;
   padding: 0px;
-  width: 100vw;
-  background-color: #EEE2DC;
+  width: 100%;
+  max-width: 2000px;
+  background-color: rgb(237, 240, 232);
+}
+
+#root {
+  background-color: rgb(237, 240, 232);
 }

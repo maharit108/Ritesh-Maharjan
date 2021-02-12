@@ -4,8 +4,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #e1e6eb;
-  background-image: radial-gradient(#e1e6eb, #116466);
+  background-color: rgba(192,219,145);
+  background-image: radial-gradient(whitesmoke, #116466);
   border-bottom: 0.5px solid rgba(50, 50, 50, 0.4);
 }
 

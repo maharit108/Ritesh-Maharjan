@@ -1,0 +1,8 @@
+.line {
+    display: block;
+    margin: 0 auto;
+    border-width: 3px;
+    width: 100%;
+    border-top-color: brown;
+    max-width: 1200px;
+  }

@@ -14,7 +14,7 @@ import './project.css'
 const Project = () => {
   return (
   <div id='projects' className='project'>
-    <h2 className='projectTitle'> PORTFOLIO</h2>
+    <h1 className='projectTitle'> PORTFOLIO</h1>
 
     <div className='row'>
       <div className='proj'>

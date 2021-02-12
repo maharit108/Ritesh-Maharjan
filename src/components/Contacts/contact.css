@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #EEE2DC;
+  background-color: rgb(237, 240, 232);
 }
 
 .contactMain {
@@ -15,7 +15,7 @@
 }
 
 .contactTitle {
-  margin: 3vh;
+  font-size: 30px;
   font-family: 'Architects Daughter', cursive
 }
 
@@ -45,6 +45,14 @@ textarea.form-control {
   max-width: 500px;
   min-width: 400px;
   background-color: #116466;
+  transition: 0.5s;
+}
+
+.formSubmit:hover {
+  background-color: rgba(192,219,145);
+  color: black;
+  font-weight: 600;
+  transition: 0.5s;
 }
 
 .meMail {
@@ -52,26 +60,35 @@ textarea.form-control {
   text-decoration: underline;
 }
 
+.footerWrapper {
+  background-color: #126366;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #343b3f;
+  background-color: #126366;
   width: 100vw;
   height: 110px;
+  max-width: 1600px;
 }
 
 .foot1 {
   height: 80px;
-  color: gray;
-  font-size: 12px;
+  color: whitesmoke;
+  font-size: 16px;
   padding: 5px 25px;
 }
 
 .footTitle {
-  color: gray;
-  font-size: 14px;
+  color: whitesmoke;
+  font-size: 18px;
   padding: 5px 0 10px 0;
 }
 
@@ -82,16 +99,22 @@ textarea.form-control {
 .foot2 {
   margin: 0;
   padding: 0 30px 0 0;
+  flex-direction: row;
+}
+
+.foot2:hover {
+  transform: scale(1.3);
+}
+
+.foot2:hover .dwn {
+  background-color: black;
 }
 
 .dwn {
-  width: 20px;
+  width: 24px;
   border-radius: 50%;
 }
-.dwn:hover {
-  background-color: blue;
-  transform: scale(1.3);
-}
+
 
 .footLogo {
   display: flex;
@@ -101,9 +124,10 @@ textarea.form-control {
 }
 
 .footTitle2 {
-  color: gray;
-  font-size: 14px;
-  margin: 0px;
+  color: whitesmoke;
+  font-size: 18px;
+  margin: 0px 12px 0 0;
+  display: inline-block;
 }
 
 .gt {
@@ -174,7 +198,7 @@ textarea.form-control {
   }
   .smlScn {
     display: flex;
-    color: gray;
+    color: whitesmoke;
     justify-content: center;
     align-items: center;
     padding: 20px 0 5px 0;

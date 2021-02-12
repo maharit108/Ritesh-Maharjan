@@ -2,12 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #C0BFBD;
-  background-image: url('./skill.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-bottom: 0.5px solid rgba(50, 50, 50, 0.4);
+  /* background-color: rgba(192,219,145); */
   padding: 20px;
 }
 
@@ -19,7 +14,7 @@
 }
 
 h1 {
-  margin: 40px auto;
+  margin: 30px auto;
   font-family: 'Architects Daughter', cursive
 }
 
@@ -33,7 +28,7 @@ h1 {
 .skillTitle {
   margin: 0 35px 0 15px;
   width: 150px;
-  font-size: 20px;
+  font-size: 30px;
   font-family: 'Architects Daughter', cursive
 }
 
