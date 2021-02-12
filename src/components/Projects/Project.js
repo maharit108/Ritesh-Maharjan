@@ -13,39 +13,43 @@ const Project = () => {
 
   // const [showDetail, setShowDetail] = false
 
-
   return (
   <div id='projects' className='project'>
     <h1 className='projectTitle'> PORTFOLIO</h1>
     <div className='row'>
       {projectOverview.map((project, idx) => (
-        <div className='proj'>
+        <div className='proj' key={idx}>
           <Card>
-          <Card.Img variant="top" src={project.media} />
-          <Card.Body>
+            <Card.Img variant="top" src={project.media} />
+            <div className='overlay'></div>
+            <Card.Body>
             <div>
               <Card.Title>{project.title}</Card.Title>
               <Card.Text>{project.desc}</Card.Text>
             </div>
             <div className='toolUse'><strong>Tech Stack:  </strong>{project.tools}</div>
           </Card.Body>
-          <Card.Footer>
+            <Card.Footer>
             <div className='icon'>
               <a href={project.github} target="_blank" rel="noopener noreferrer">
                 <img className='img-fluid mx-auto mb-2' src={github} alt='github Link' />
               </a>
             </div>
+            {project.site ?  
             <div className='icon'>
                 <a href={project.site} target="_blank" rel="noopener noreferrer">
                 <img className='img-fluid mx-auto mb-2' src={deploy} alt='deployed Link' />
               </a>
             </div>
+            : '' }
+           
           </Card.Footer>
-        </Card>
+          </Card>
         </div>
       ))}
     </div>
-  </div>
-)}
+  </div>  
+  )
+}
 
 export default Project
