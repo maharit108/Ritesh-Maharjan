@@ -1,8 +1,8 @@
-import apparelImg from '../../static/projectImg/Apparels.png'
-import coffeeImg from '../../static/projectImg/Coffee.png'
-import farmchatImg from '../../static/projectImg/FarmChat.png'
-import oxoImg from '../../static/projectImg/OXO.png'
-import pomodoro from '../../static/projectImg/Pomodoro.png'
+import apparelImg from '../../static/projectImg/Apparels.jpg'
+import coffeeImg from '../../static/projectImg/Coffee.jpg'
+import farmchatImg from '../../static/projectImg/FarmChat.jpg'
+import oxoImg from '../../static/projectImg/OXO.jpg'
+import pomodoro from '../../static/projectImg/Pomodoro.jpg'
 
 export const projectData = [
     {
