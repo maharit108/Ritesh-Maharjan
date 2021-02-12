@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* background-color: rgba(192,219,145); */
   padding: 20px;
 }
 
@@ -15,7 +14,7 @@
 
 h1 {
   margin: 30px auto;
-  font-family: 'Architects Daughter', cursive
+  font-family: 'Architects Daughter', cursive, Arial, Helvetica, sans-serif;
 }
 
 .row-in {
@@ -29,7 +28,7 @@ h1 {
   margin: 0 35px 0 15px;
   width: 150px;
   font-size: 30px;
-  font-family: 'Architects Daughter', cursive
+  font-family: 'Architects Daughter', cursive, Arial, Helvetica, sans-serif;
 }
 
 .sk {

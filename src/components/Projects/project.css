@@ -23,7 +23,7 @@
 
 .projectTitle {
   margin: 35px auto;
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Architects Daughter', cursive, Arial, Helvetica, sans-serif;
 }
 
 .toolUse {

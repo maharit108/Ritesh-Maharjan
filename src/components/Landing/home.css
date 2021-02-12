@@ -30,6 +30,7 @@ img {
 h1.name {
   font-size: 50px;
   margin-bottom: 5px;
+  font-family: 'Architects Daughter', cursive, Arial, Helvetica, sans-serif;
 }
 
 .intro {
@@ -38,7 +39,8 @@ h1.name {
 }
 
 .blurb {
-  font-size: 18px;
+  font-size: 20px;
+  font-family: 'Architects Daughter', cursive, Arial, Helvetica, sans-serif;
 }
 
 @media only screen and (max-width: 875px) {
