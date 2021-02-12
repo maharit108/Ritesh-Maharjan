@@ -52,7 +52,7 @@ const Contact = () => {
 return (
     <div id='contacts' className='contacts'>
       <div className='contactMain'>
-        <h2 className='contactTitle'> CONTACT ME </h2>
+        <h1 className='contactTitle'> CONTACT ME </h1>
         <p className='mymsg'>You can send me an email at <a href="mailto:maha.rit108@gmail.com?subject=Hello!&body=Hi" className='meMail'>maha.rit108@gmail.com</a> or shoot me a message by filling the form below. </p>
       <div className='formDiv'>
         <Form onSubmit=

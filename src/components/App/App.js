@@ -17,18 +17,20 @@ function App() {
   return (
         <>
           <Home />
-          <Navbar bg="dark" variant="dark" expand="md" sticky="top" collapseOnSelect >
-            <Navbar.Brand href='#'> RITESH MAHARJAN </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="ml-auto">
-              <Nav.Link href="#skills">SKILLS</Nav.Link>
-              <Nav.Link href="#projects">PORTFOLIO</Nav.Link>
-              <Nav.Link href="#contacts">CONTACTS</Nav.Link>
-              <Nav.Link href={resume} target="_blank">RESUME</Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
+          <div className='navWrapper'>
+            <Navbar className='navbarCustom' expand="md" sticky="top" collapseOnSelect >
+              <Navbar.Brand href='#'> RITESH MAHARJAN </Navbar.Brand>
+              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+              <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="ml-auto">
+                  <Nav.Link href="#skills">SKILLS</Nav.Link>
+                  <Nav.Link href="#projects">PORTFOLIO</Nav.Link>
+                  <Nav.Link href="#contacts">CONTACTS</Nav.Link>
+                  <Nav.Link href={resume} target="_blank">RESUME</Nav.Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
+          </div>
           <Skills />
           <hr className='line' />
           <Project />

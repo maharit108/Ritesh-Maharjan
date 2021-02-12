@@ -1,8 +1,71 @@
 .line {
-    display: block;
-    margin: 0 auto;
-    border-width: 3px;
-    width: 100%;
-    border-top-color: brown;
-    max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+  border-width: 3px;
+  width: 100%;
+  border-top-color: brown;
+  max-width: 1200px;
+}
+
+.navbarCustom {
+  background-color: #126366;
+  width: 100vw;
+  max-width: 1200px;
+}
+
+.navWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #126366;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+.navbarCustom .navbar-brand, 
+.navbarCustom .nav-link {
+  color: whitesmoke !important;
+}
+
+.navbarCustom .nav-link  {
+  padding: 0.3125rem 20px 0.3125rem 20px !important;
+}
+
+.navbarCustom .navbar-brand  {
+  padding: 0.3125rem 0px 0.3125rem 30px !important;
+}
+
+.navbarCustom .nav-link:hover {
+  color: greenyellow !important;
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+
+.navbarCustom .navbar-brand:hover {
+  color: greenyellow !important;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.navbarCustom .navbar-brand:not( :hover), 
+.navbarCustom .nav-link:not(:hover) {
+  transition: 1s;
+}
+
+
+.navbar-toggler {
+  background-color: whitesmoke !important; 
+}
+
+@media only screen and (max-width: 768px) {
+  .navbarCustom .navbar-nav {
+    padding-left: 40px;
   }
+
+  .navbarCustom .nav-link:hover {
+    transform: scale(1.2) translate(30px);
+  }
+}
+
+
