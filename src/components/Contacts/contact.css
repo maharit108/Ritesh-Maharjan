@@ -58,7 +58,7 @@ textarea.form-control {
 
 
 .formSubmit:not(:hover){
-  transition: 1s; 
+  transition: 0.5s; 
 } 
 
 .meMail {
@@ -110,7 +110,7 @@ textarea.form-control {
 
 .foot2:hover {
   transition: 0.5s;
-  transform: scale(1.3);
+  transform: scale(1.1);
 }
 
 .foot2:hover .dwn {
@@ -118,7 +118,7 @@ textarea.form-control {
 }
 
 .foot2:not(:hover) {
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .dwn {
@@ -150,13 +150,13 @@ textarea.form-control {
   margin: auto 20px;
 }
 .gt:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .ml:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .ln:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .ml {
   width: 49px;

@@ -3,6 +3,7 @@ import coffeeImg from '../../static/projectImg/Coffee.jpg'
 import farmchatImg from '../../static/projectImg/FarmChat.jpg'
 import oxoImg from '../../static/projectImg/OXO.jpg'
 import pomodoro from '../../static/projectImg/Pomodoro.jpg'
+import momentum from '../../static/projectImg/momentum.png'
 
 export const projectData = [
     {
@@ -25,7 +26,7 @@ const projectOverview = [
         tools: 'JavaScript, Chrome Development Tools',
         media: pomodoro,
         github: 'https://github.com/maharit108/pomodoro',
-        site: ''
+        site: 'https://chrome.google.com/webstore/detail/pomodoro-tool/bembgggdodkjkgabgmhbmjdnpdacdgdh?hl=en-US'
     },
     {
         title: 'APPARELS',
@@ -42,6 +43,14 @@ const projectOverview = [
         media: farmchatImg,  
         github: 'https://github.com/SEI-Troubleshoot/project-3-client',
         site: 'https://sei-troubleshoot.github.io/project-3-client/#/' 
+    },
+    {
+        title: 'Momentum-mimic',
+        desc: 'A react-app making use of public third-party APIs to create a mimic copy of popular chrome extension- momentum as a webpage. Uses geoLocation to get the location of device and uses it to render weather of the location along with time and a good quote.',
+        tools: 'JavaScript, React, Axios',
+        media: momentum,  
+        github: 'https://github.com/maharit108/Momentum-mimic',
+        site: 'https://maharit108.github.io/Momentum-mimic/#/' 
     },
     {
         title: 'COFFEE TALKS',
