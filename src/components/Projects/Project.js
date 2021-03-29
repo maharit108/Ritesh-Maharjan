@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 import Card from 'react-bootstrap/Card'
 
@@ -11,7 +11,16 @@ import './project.css'
 
 const Project = () => {
 
-  // const [showDetail, setShowDetail] = false
+  const [showDetail, setShowDetail] = useState(-1)
+
+  const onImageFocus = (e) => {
+    const { id } = e.target
+    setShowDetail(id)
+  }
+
+  const onImageBlur = () => {
+    setShowDetail(-1)
+  }
 
   return (
   <div id='projects' className='project'>
@@ -20,15 +29,16 @@ const Project = () => {
       {projectOverview.map((project, idx) => (
         <div className='proj' key={idx}>
           <Card>
-            <Card.Img variant="top" src={project.media} />
-            <div className='overlay'></div>
-            <Card.Body>
-            <div>
-              <Card.Title>{project.title}</Card.Title>
-              <Card.Text>{project.desc}</Card.Text>
-            </div>
-            <div className='toolUse'><strong>Tech Stack:  </strong>{project.tools}</div>
-          </Card.Body>
+            <Card.Img variant="top" src={project.media} onMouseEnter={onImageFocus} id={idx}/>
+              <div className='overlay' onMouseEnter={onImageFocus} onMouseLeave={onImageBlur} >
+                <Card.Body id={idx}>
+                  <div>
+                    <Card.Title>{project.title}</Card.Title>
+                    <Card.Text>{project.desc}</Card.Text>
+                  </div>
+                  <div className='toolUse'><strong>Tech Stack:  </strong>{project.tools}</div>
+                </Card.Body>
+              </div>
             <Card.Footer>
             <div className='icon'>
               <a href={project.github} target="_blank" rel="noopener noreferrer">
