@@ -7,7 +7,7 @@ import pho from '../../static/logoIcon/photo.jpg'
 const Home = () => (
   <div id='home' className='home'>
     <div className='pic'><img
-            className='img-fluid mx-auto mb-2'
+            className='img-fluid mx-auto'
             src={pho}
             alt='ritesh Mmharjan img' /></div>
     <div className='brief'>
