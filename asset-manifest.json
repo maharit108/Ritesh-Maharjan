@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Ritesh-Maharjan/static/css/main.1b885094.chunk.css",
-    "main.js": "/Ritesh-Maharjan/static/js/main.6c3a748a.chunk.js",
-    "main.js.map": "/Ritesh-Maharjan/static/js/main.6c3a748a.chunk.js.map",
+    "main.css": "/Ritesh-Maharjan/static/css/main.44b6ecb7.chunk.css",
+    "main.js": "/Ritesh-Maharjan/static/js/main.171573b2.chunk.js",
+    "main.js.map": "/Ritesh-Maharjan/static/js/main.171573b2.chunk.js.map",
     "runtime-main.js": "/Ritesh-Maharjan/static/js/runtime-main.84784c6c.js",
     "runtime-main.js.map": "/Ritesh-Maharjan/static/js/runtime-main.84784c6c.js.map",
     "static/css/2.95f25948.chunk.css": "/Ritesh-Maharjan/static/css/2.95f25948.chunk.css",
@@ -14,7 +14,7 @@
     "index.html": "/Ritesh-Maharjan/index.html",
     "static/css/2.95f25948.chunk.css.map": "/Ritesh-Maharjan/static/css/2.95f25948.chunk.css.map",
     "static/css/3.7665b09f.chunk.css.map": "/Ritesh-Maharjan/static/css/3.7665b09f.chunk.css.map",
-    "static/css/main.1b885094.chunk.css.map": "/Ritesh-Maharjan/static/css/main.1b885094.chunk.css.map",
+    "static/css/main.44b6ecb7.chunk.css.map": "/Ritesh-Maharjan/static/css/main.44b6ecb7.chunk.css.map",
     "static/js/2.f79de586.chunk.js.LICENSE.txt": "/Ritesh-Maharjan/static/js/2.f79de586.chunk.js.LICENSE.txt",
     "static/media/Apparels.c9894145.jpg": "/Ritesh-Maharjan/static/media/Apparels.c9894145.jpg",
     "static/media/Coffee.06d1e9cb.jpg": "/Ritesh-Maharjan/static/media/Coffee.06d1e9cb.jpg",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.84784c6c.js",
     "static/css/2.95f25948.chunk.css",
     "static/js/2.f79de586.chunk.js",
-    "static/css/main.1b885094.chunk.css",
-    "static/js/main.6c3a748a.chunk.js"
+    "static/css/main.44b6ecb7.chunk.css",
+    "static/js/main.171573b2.chunk.js"
   ]
 }
