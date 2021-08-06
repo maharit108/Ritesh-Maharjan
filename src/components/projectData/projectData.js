@@ -4,6 +4,8 @@ import farmchatImg from '../../static/projectImg/FarmChat.jpg'
 import oxoImg from '../../static/projectImg/OXO.jpg'
 import pomodoro from '../../static/projectImg/Pomodoro.jpg'
 import momentum from '../../static/projectImg/momentum.png'
+import mapping from '../../static/projectImg/Mapping.png'
+import portfolio from '../../static/projectImg/portfolio.png'
 
 export const projectData = [
     {
@@ -27,6 +29,14 @@ const projectOverview = [
         media: pomodoro,
         github: 'https://github.com/maharit108/pomodoro',
         site: 'https://chrome.google.com/webstore/detail/pomodoro-tool/bembgggdodkjkgabgmhbmjdnpdacdgdh?hl=en-US'
+    },
+    {
+        title: 'Mapping Project- Code for Chicago',
+        desc: 'This project is a React application creating an interface map to visualize and easily interact with various public dataset (food insecurity, poverty, SNAP, WIC and race) from Greater Chicago Food Depository. Contributing as a Frontend developer for this project at Code for Chicago.',
+        tools: 'JavaScript, React, Redux, Mapbox, Recharts',
+        media: mapping,
+        github: 'https://github.com/Code-For-Chicago/greater-chicago-food-despository-ui',
+        site: 'https://cfc-mapping.netlify.app/'
     },
     {
         title: 'APPARELS',
@@ -67,6 +77,14 @@ const projectOverview = [
         media: oxoImg,  
         github: 'https://github.com/maharit108/Ticky-Tacky',
         site: 'https://maharit108.github.io/Ticky-Tacky/' 
+    },
+    {
+        title: 'My Portfolio',
+        desc: 'Built this portfolio to showcase some of my works. My_Portfolio2.0 coming soon!!!',
+        tools: 'JavaScript, react',
+        media: portfolio,  
+        github: 'https://github.com/maharit108/Ritesh-Maharjan',
+        site: 'https://maharit108.github.io/Ritesh-Maharjan/#/' 
     }
 ]
 

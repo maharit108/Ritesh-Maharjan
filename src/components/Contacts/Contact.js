@@ -10,7 +10,7 @@ import mail from '../../static/logoIcon/mail.png'
 import linkedin from '../../static/logoIcon/linkedin.svg'
 import github from '../../static/logoIcon/github.svg'
 
-import resume from '../../static/Ritesh_Maharjan_resume.pdf'
+import resume from '../../static/Resume_Ritesh_Maharjan.pdf'
 
 import './contact.css'
 

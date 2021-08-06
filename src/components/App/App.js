@@ -11,7 +11,7 @@ import Skills from '../Skills/Skills.js'
 import Project from '../Projects/Project.js'
 import Contact from '../Contacts/Contact.js'
 
-import resume from '../../static/Ritesh_Maharjan_resume.pdf'
+import resume from '../../static/Resume_Ritesh_Maharjan.pdf'
 
 function App() {
   return (
